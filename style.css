@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+div {
+    padding: 5px;
+}
+
+.default {
+    border-style: none;
+    background-color: #e0e0e0;
+    width: 81px;
+    height: 36px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 0px rgba(51, 51, 51, 0.2);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(63, 63, 63, 1);
+}
+
+.default:hover {
+    background-color: rgba(174, 174, 174, 1);
+    color: rgba(63, 63, 63, 1);
+}
+
+.default:focus {
+    background-color: rgba(174, 174, 174, 1);
+    color: rgba(63, 63, 63, 1);
+}
+
+.outline {
+    border-color: rgba(61, 90, 254, 1);
+    background-color: #fff;
+    width: 88px;
+    height: 36px;
+    color: rgba(61, 90, 254, 1);
+    border-width: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.outline:hover {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.outline:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    border-style: none;
+    background-color: #fff;
+    width: 88px;
+    height: 36px;
+    color: rgba(61, 90, 254, 1);
+    border-width: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.text:hover {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.disableShadow {
+    border-style: none;
+    background-color: rgba(61, 90, 254, 1);
+    width: 81px;
+    height: 36px;
+    color: #fff;
+    border-radius: 6px;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.disabled {
+    border-style: none;
+    width: 88px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(224, 224, 224, 1);
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: rgba(158, 158, 158, 1);
+}
+
+.disabled:hover {
+    background-color: #fff;
+    color: rgba(158, 158, 158, 1);
+}
+
+.disabled:focus {
+    background-color: #fff;
+    color: rgba(158, 158, 158, 1);
+}
+
+.startIcon {
+    border-style: none;
+    width: 105px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(41, 98, 255, 1);
+    color: #fff;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.material-icons {
+    font-size: 10px;
+}
+
+.material-icons {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+.endIcon {
+    border-style: none;
+    width: 105px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(41, 98, 255, 1);
+    color: #fff;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+i {
+    font-size: 10px;
+}
+
+i {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.sm {
+    border-style: none;
+    background-color: rgba(61, 90, 254, 1);
+    width: 73px;
+    height: 32px;
+    color: #fff;
+    border-radius: 6px;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+}
+
+.md {
+    border-style: none;
+    background-color: rgba(61, 90, 254, 1);
+    width: 81px;
+    height: 36px;
+    color: #fff;
+    border-radius: 6px;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+}
+
+.lg {
+    border-style: none;
+    background-color: rgba(61, 90, 254, 1);
+    width: 93px;
+    height: 42px;
+    color: #fff;
+    border-radius: 6px;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+}
+
+.primary {
+    border-style: none;
+    width: 81px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(41, 98, 255, 1);
+    box-shadow: 0px 2px 3px 0px rgba(41, 98, 255, 0.2);
+    color: #fff;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.primary:hover {
+    background-color: rgba(0, 57, 203, 1);
+
+}
+
+.secondary {
+    border-style: none;
+    width: 104px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(69, 90, 100, 1);
+    box-shadow: 0px 2px 3px 0px rgba(69, 90, 100, 0.2);
+    color: #fff;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.secondary:hover {
+    background-color: rgba(28, 49, 58, 1);
+}
+
+.secondary:focus {
+    background-color: rgba(28, 49, 58, 1);
+}
+
+.danger {
+    border-style: none;
+    width: 81px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(211, 47, 47, 1);
+    color: #fff;
+    box-shadow: 0px 2px 3px 0px rgba(211, 47, 47, 0.2);
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.danger:hover {
+    background-color: rgba(154, 0, 7, 1);
+}
+
+.danger:focus {
+    background-color: rgba(154, 0, 7, 1);
+}
